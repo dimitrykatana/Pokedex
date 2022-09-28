@@ -1,5 +1,10 @@
+// https://lazyfoo.net/tutorials/SDL/index.php
+// https://wiki.libsdl.org/
+
 #include <SDL.h>
 #include <iostream>
+
+
 
 const int WIDTH = 800, HEIGHT = 600;
 // This allows us to use cout without 
