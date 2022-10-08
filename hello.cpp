@@ -69,7 +69,7 @@ int main(int argc, char ** argv)
         }
             // delete the old pokemon to display the new one
 
-            // SDL_RenderClear(renderer);  
+            SDL_RenderClear(renderer);  
             SDL_RenderCopy(renderer, texture, &crop_image, &place_size_image);
             SDL_RenderPresent(renderer);
     }
